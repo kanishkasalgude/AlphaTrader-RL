@@ -2,3 +2,5 @@ pandas
 numpy
 pyarrow
 gymnasium
+yfinance
+

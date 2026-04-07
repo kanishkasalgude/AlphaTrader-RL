@@ -275,3 +275,9 @@
 2026-03-02 15:49:44,585 - Preprocessor - INFO - Fold created: Train 2022-02-04 to 2025-02-04, Val to 2025-08-04, Test to 2026-02-04
 2026-03-02 15:49:45,319 - PPOAgent - INFO - PPOAgent initialised — obs_space=(41,)  tb_log=logs/tensorboard
 2026-03-02 15:49:45,320 - PPOAgent - INFO - Training started: total_timesteps=1000000
+2026-04-07 19:36:27,865 - PPOAgent - INFO - Model loaded from models/best_model
+2026-04-07 19:36:27,866 - PaperTrader - INFO - Agent loaded for TATASTEEL.NS
+2026-04-07 19:36:27,918 - LLMExplainer - INFO - explain_trade called: action=SELL
+2026-04-07 19:36:28,892 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2026-04-07 19:36:28,893 - LLMExplainer - ERROR - LLM call failed: Error code: 403 - {'code': 'The caller does not have permission to execute the specified operation', 'error': "Your newly created team doesn't have any credits or licenses yet. You can purchase those on https://console.x.ai/team/367d86a9-4222-4df0-b42e-fe5b1bb7e7f9."}
+2026-04-07 19:36:28,893 - AlphaAPI - INFO - Trade executed for TATASTEEL.NS: action=SELL, has_explanation=True
